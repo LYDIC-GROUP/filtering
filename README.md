@@ -17,7 +17,7 @@ name:eq:willem AND age:gt:10
 
 You can also group filters together:
 ```
-<property>:<operator>:<value> <logic> <group_start><property>:<operator>:<value> <logic> <property>:<operator>:<value><group_end>
+<property>:<operator>:<value> <logic> (<property>:<operator>:<value> <logic> <property>:<operator>:<value>)
 name:eq:willem AND (age:gt:10 OR city:neq:amsterdam)
 ```
 
