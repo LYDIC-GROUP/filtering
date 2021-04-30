@@ -1,0 +1,34 @@
+{
+  "name": "lydic-group/filtering",
+  "description": "This software provides a lexer and parser for a filter string",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thijs Schalk",
+      "email": "thijs.schalk@gmail.com"
+    },
+    {
+      "name": "Willem Turkstra",
+      "email": "willem.turkstra@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "doctrine/lexer": "^1.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "LydicGroup\\Filtering\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LydicGroup\\Filtering\\Tests\\": "tests/"
+    }
+  }
+}
