@@ -43,3 +43,5 @@ name:eq:willem AND (age:gt:10 OR city:neq:amsterdam)
 ## Planned features
 - Date operators
 - Better error handling
+
+[Hey 👋 If you like our libraries. Support us by buying us a coffee!](https://www.buymeacoffee.com/LYDICGROUP)
