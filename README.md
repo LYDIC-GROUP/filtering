@@ -44,4 +44,6 @@ name:eq:willem AND (age:gt:10 OR city:neq:amsterdam)
 - Date operators
 - Better error handling
 
-[Hey 👋 If you like our libraries. Support us by buying us a coffee!](https://www.buymeacoffee.com/LYDICGROUP)
+## Support
+
+Hey 👋 If you like our libraries. Support us by  [buying](https://www.buymeacoffee.com/LYDICGROUP) us a coffee!
