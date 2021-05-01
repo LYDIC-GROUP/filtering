@@ -2,6 +2,26 @@
 
 Enables parsing of expression's to a set of easy to navigate nodes.
 
+## Usage
+
+Install the package using composer
+```
+composer require lydicgroup/filtering
+```
+
+```injectablephp
+<?php
+
+require_once 'vendor/autoload.php';
+
+$expression = 'name:eq:willem';
+$lexer = new \LydicGroup\Filtering\ExpressionLexer();
+$parser = new \LydicGroup\Filtering\ExpressionParser($lexer);
+$nodes = $parser->parse($expression);
+```
+
+You can now use the nodes in whatever way you want. 
+
 ## Syntax
 The syntax is basic, a single filter looks like this:
 ```
