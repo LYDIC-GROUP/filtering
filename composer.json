@@ -3,6 +3,7 @@
   "description": "This software provides a lexer and parser for a filter string",
   "type": "library",
   "minimum-stability": "stable",
+  "version": "0.1.0",
   "license": "MIT",
   "authors": [
     {
